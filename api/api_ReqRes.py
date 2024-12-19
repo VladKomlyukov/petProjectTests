@@ -11,7 +11,7 @@ class ReqRes:
         self.base_url: str = config.data.base_url
         self.username: str = config.data.username
         self.password: str = config.data.password
-        self.password: str = config.data.email
+        self.email: str = config.data.email
         
     
     def post_registration(self, username, password, email, headers: dict) -> tuple:
